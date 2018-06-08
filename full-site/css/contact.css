@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Solomon Sans Black";
+  src: url("../fonts/Solomon Sans Black.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Solomon Sans Book";
+  src: url("../fonts/Solomon Sans Book.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Solomon Sans Book Italic";
+  src: url("../fonts/Solomon Sans Book Italic.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Solomon Sans Bold";
+  src: url("../fonts/Solomon Sans Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Solomon Sans Light";
+  src: url("../fonts/Solomon Sans Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Solomon Sans Normal";
+  src: url("../fonts/Solomon Sans Normal.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Solomon Sans Thin";
+  src: url("../fonts/Solomon Sans Thin.otf") format("opentype");
+  font-style: normal;
+  font-weight: 100;
+}
+/* line 2, ../sass/contact.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../sass/contact.scss */
+body {
+  background: url("../img/spirit.png");
+  background-size: cover;
+  position: relative;
+}
+
+/* line 10, ../sass/contact.scss */
+.page_contact.section_ten {
+  height: calc(100% - 70px);
+  padding-top: 175px;
+  margin-top: 0;
+  background: none;
+}
+/* line 16, ../sass/contact.scss */
+.page_contact.section_ten .ten_name {
+  font-size: 26px;
+  font-family: "Solomon Sans Book";
+}
+
+/* line 21, ../sass/contact.scss */
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* line 26, ../sass/contact.scss */
+.ten_round {
+  margin: 45px 60px 20px;
+}
+
+/* line 29, ../sass/contact.scss */
+img.fb {
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  /* line 34, ../sass/contact.scss */
+  .page_contact.section_ten {
+    height: auto;
+    padding: 40px 0 40px 0;
+    margin-top: 0;
+  }
+
+  /* line 39, ../sass/contact.scss */
+  .ten_round {
+    margin: 20px 75px;
+  }
+
+  /* line 42, ../sass/contact.scss */
+  img.fb {
+    margin-top: 20px;
+  }
+
+  /* line 45, ../sass/contact.scss */
+  .footer {
+    position: static;
+  }
+}

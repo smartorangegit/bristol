@@ -1,0 +1,73 @@
+@import "_variables";
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: url('../img/spirit.png');
+  background-size: cover;
+  position: relative;
+}
+.page_webcam.section_ten {
+  background: none;
+  height: auto;
+  padding-top: 180px;
+  .ten_name {
+    font-size: 30px;
+    font-family: $solomon-book;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    img {
+      margin-right: 8px;
+    }
+  }
+}
+.nine_finish {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+
+}
+.webcam_box{
+  width: 50vw;
+  max-width: 910px;
+  margin: 0 auto;
+  height: 40vh;
+  position: relative;
+  border: 1px solid #e6e6e6;
+}
+.webcam_box:after {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  background: url('../img/s.png') center;
+  background-repeat: no-repeat;
+  bottom: -30px;
+  left: 0;
+  opacity: 0.5;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    min-height: 600px;
+    height: 100%;
+  }
+ .page_webcam.section_ten {
+   padding-top: 0px;
+ }
+ .webcam_box{
+   width: 280px;
+   height: 175px;
+ }
+ .webcam_box:after {
+   height: 18px;
+   width: 100%;
+   background-size: cover;
+   bottom: -14px;
+   }
+
+}

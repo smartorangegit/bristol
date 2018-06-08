@@ -1,0 +1,110 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+RewriteCond %{QUERY_STRING} ^id=1$
+RewriteRule ^selection_flats.php /selection_flats.php?id=1/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=2$
+RewriteRule ^selection_flats.php /selection_flats.php?id=2/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=3$
+RewriteRule ^selection_flats.php /selection_flats.php?id=3/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=4$
+RewriteRule ^selection_flats.php /selection_flats.php?id=4/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=5$
+RewriteRule ^selection_flats.php /selection_flats.php?id=5/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=6$
+RewriteRule ^selection_flats.php /selection_flats.php?id=6/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=7$
+RewriteRule ^selection_flats.php /selection_flats.php?id=7/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=8$
+RewriteRule ^selection_flats.php /selection_flats.php?id=8/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=9$
+RewriteRule ^selection_flats.php /selection_flats.php?id=9/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=10$
+RewriteRule ^selection_flats.php /selection_flats.php?id=10/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=11$
+RewriteRule ^selection_flats.php /selection_flats.php?id=11/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=12$
+RewriteRule ^selection_flats.php /selection_flats.php?id=12/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=13$
+RewriteRule ^selection_flats.php /selection_flats.php?id=13/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=14$
+RewriteRule ^selection_flats.php /selection_flats.php?id=14/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=15$
+RewriteRule ^selection_flats.php /selection_flats.php?id=15/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=16$
+RewriteRule ^selection_flats.php /selection_flats.php?id=16/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=17$
+RewriteRule ^selection_flats.php /selection_flats.php?id=17/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=18$
+RewriteRule ^selection_flats.php /selection_flats.php?id=18/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=19$
+RewriteRule ^selection_flats.php /selection_flats.php?id=19/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=20$
+RewriteRule ^selection_flats.php /selection_flats.php?id=20/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=21$
+RewriteRule ^selection_flats.php /selection_flats.php?id=21/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=22$
+RewriteRule ^selection_flats.php /selection_flats.php?id=22/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=23$
+RewriteRule ^selection_flats.php /selection_flats.php?id=23/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=24$
+RewriteRule ^selection_flats.php /selection_flats.php?id=24/ [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^id=25$
+RewriteRule ^selection_flats.php /selection_flats.php?id=25/ [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP
+RewriteRule ^index\.php$ http://bristol.house/ [R=301,L]
+
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^(.*)/index\.php$
+RewriteRule ^(.*)index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+# Редирект на страницу без многократных /.
+RewriteCond %{THE_REQUEST} //
+RewriteRule .* /$0 [R=301,L]
+
+
+Redirect 301 /ru/cause/webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+Redirect 301 /ru//webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+Redirect 301 /ru/webcam/webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+Redirect 301 /ru/contact/webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+Redirect 301 /ru/flats/webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+Redirect 301 /ru/map/webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+Redirect 301 /ru/webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+Redirect 301 /ru/parking/webcam.php http://bristoll.webiart.com.ua/ru/webcam/
+
+Redirect 301 /cause/webcam.php http://bristoll.webiart.com.ua/webcam/
+Redirect 301 //webcam.php http://bristoll.webiart.com.ua/webcam/
+Redirect 301 /webcam/webcam.php http://bristoll.webiart.com.ua/webcam/
+Redirect 301 /contact/webcam.php http://bristoll.webiart.com.ua/webcam/
+Redirect 301 /flats/webcam.php http://bristoll.webiart.com.ua/webcam/
+Redirect 301 /map/webcam.php http://bristoll.webiart.com.ua/webcam/
+Redirect 301 /webcam.php http://bristoll.webiart.com.ua/webcam/
+Redirect 301 /parking/webcam.php http://bristoll.webiart.com.ua/webcam/

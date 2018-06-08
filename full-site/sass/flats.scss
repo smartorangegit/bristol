@@ -1,0 +1,89 @@
+.section_one.rooms {
+  height: calc(100% - 90px);
+  width: 100%;
+  padding: 0;
+}
+.left_wrap {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+.rooms .one_text_left {
+  text-align: center;
+}
+.floor_info div {
+  margin: 0 30px;
+}
+.right_wrap {
+  width: 50%;
+  height: 100%;
+  float: right;
+  margin: 40px 0 0;
+  background: none;
+  position: relative;
+}
+.right_wrap svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.right_wrap img {
+  height: 100%;
+  max-width: 100%;
+}
+.wrapper_flat {
+  height: 100%;
+}
+.floor_info {
+  position: static;
+  }
+a.button{
+  width: 412px;
+  margin: 0 auto;
+}
+.left_wrap_box {
+  float: right;
+  margin-top: 25vh;
+}
+.active{
+  opacity: 1;
+}
+@media only screen and (max-width: 1220px) {
+  a.button{
+    width: 310px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .left_wrap {
+      width: 100%;
+      height: auto;
+      float: none;
+  }
+  .left_wrap_box {
+    float: none;
+    margin-right: auto;
+    margin-top: 36px;
+}
+.right_wrap {
+  float: none;
+  margin:  0 auto;
+  width: 100%;
+}
+a.button{
+  width: 300px;
+}
+.section_one.rooms {
+    height: auto;
+  }
+.floor_info {
+    position: static;
+  }
+.rooms:not(.flat) .reserve {
+    margin-top: 0px;
+  }
+
+
+
+
+}

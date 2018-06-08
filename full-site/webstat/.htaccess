@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/bristol.house/webstat"
+AuthUserFile /var/www/riversid/data/etc/1310119.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

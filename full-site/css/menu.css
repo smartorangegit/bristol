@@ -1,0 +1,326 @@
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Solomon Sans Black";
+  src: url("../fonts/Solomon Sans Black.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Solomon Sans Book";
+  src: url("../fonts/Solomon Sans Book.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Solomon Sans Book Italic";
+  src: url("../fonts/Solomon Sans Book Italic.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Solomon Sans Bold";
+  src: url("../fonts/Solomon Sans Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Solomon Sans Light";
+  src: url("../fonts/Solomon Sans Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Solomon Sans Normal";
+  src: url("../fonts/Solomon Sans Normal.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Solomon Sans Thin";
+  src: url("../fonts/Solomon Sans Thin.otf") format("opentype");
+  font-style: normal;
+  font-weight: 100;
+}
+/* line 3, ../sass/menu.scss */
+.nav {
+  background: none;
+  position: relative;
+}
+
+/* line 6, ../sass/menu.scss */
+.header-top {
+  position: absolute;
+}
+
+/* line 9, ../sass/menu.scss */
+.header-content {
+  position: absolute;
+  z-index: 100;
+  margin-left: -600px;
+  left: 50%;
+}
+
+/* line 15, ../sass/menu.scss */
+.nav svg {
+  position: absolute;
+  top: 0px;
+  height: 152px;
+  left: 50%;
+  margin-left: -910px;
+}
+
+/* line 22, ../sass/menu.scss */
+.nav .nav-left {
+  width: auto;
+  position: absolute;
+  left: 5px;
+}
+
+/* line 27, ../sass/menu.scss */
+.nav li {
+  display: inline-block;
+  margin: 30px 10px 0 16px;
+}
+
+/* line 31, ../sass/menu.scss */
+.nav .nav_wrapper {
+  margin: 30px auto;
+  width: 1160px;
+}
+
+/* line 35, ../sass/menu.scss */
+.nav .nav-right {
+  width: auto;
+  right: 15px;
+  z-index: 2;
+}
+
+/* line 40, ../sass/menu.scss */
+.nav-mask {
+  width: 1164px;
+  pointer-events: all;
+  margin: -157px auto 0;
+}
+
+/* line 45, ../sass/menu.scss */
+.nav-mask svg {
+  width: 1158px;
+  left: 0px;
+  margin-left: 0;
+  top: -7px;
+}
+
+/* line 51, ../sass/menu.scss */
+.st0 {
+  fill: #E3222C;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* line 56, ../sass/menu.scss */
+.st0:hover {
+  cursor: pointer;
+  fill: #E3222C;
+  opacity: 1;
+}
+
+/* line 63, ../sass/menu.scss */
+a.phone {
+  background-color: #e4202b;
+}
+
+/* line 66, ../sass/menu.scss */
+a.phone:hover {
+  background-color: #BF0006;
+}
+
+/* line 70, ../sass/menu.scss */
+#overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  display: none;
+  cursor: default;
+  opacity: 0;
+}
+
+/* line 82, ../sass/menu.scss */
+#one_callback {
+  margin-left: -500px;
+  left: 50%;
+  position: absolute;
+  z-index: 101;
+  display: none;
+  opacity: 0;
+  top: -200px;
+}
+
+/* line 91, ../sass/menu.scss */
+#one_callback .close_popup {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 431px;
+  margin-top: -130px;
+  cursor: pointer;
+}
+
+/* line 101, ../sass/menu.scss */
+.close_popup:hover {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(3180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition-duration: 0.3s;
+}
+
+/* line 109, ../sass/menu.scss */
+#one_callback span img {
+  margin-top: 9px;
+  width: 64%;
+  float: none;
+}
+
+/* line 114, ../sass/menu.scss */
+.captch {
+  width: 310px;
+  height: 75px;
+  background-color: grey;
+  margin: 12px 7px;
+}
+
+/* line 120, ../sass/menu.scss */
+.info_small {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1220px) {
+  /* line 126, ../sass/menu.scss */
+  .nav svg {
+    height: 90px;
+    margin-left: -544px;
+  }
+
+  /* line 130, ../sass/menu.scss */
+  .header-content {
+    width: 760px;
+    margin-left: -380px;
+  }
+
+  /* line 133, ../sass/menu.scss */
+  .nav .nav_wrapper {
+    margin: 4px auto;
+    width: 768px;
+  }
+
+  /* line 137, ../sass/menu.scss */
+  .nav .nav-left {
+    left: 38px;
+  }
+
+  /* line 138, ../sass/menu.scss */
+  .nav .nav-right {
+    right: 56px;
+  }
+
+  /* line 139, ../sass/menu.scss */
+  .nav li {
+    margin: 30px 2px 0 4px;
+  }
+
+  /* line 140, ../sass/menu.scss */
+  .nav-mask {
+    margin: -72px auto 0;
+    height: 72px;
+  }
+
+  /* line 144, ../sass/menu.scss */
+  .nav-mask svg {
+    left: 3px;
+  }
+
+  /* line 146, ../sass/menu.scss */
+  #one_callback {
+    margin-left: -360px;
+    left: 50%;
+  }
+
+  /* line 150, ../sass/menu.scss */
+  #one_callback span {
+    width: 30px;
+    height: 30px;
+    margin-left: 328px;
+    margin-top: -100px;
+  }
+
+  /* line 156, ../sass/menu.scss */
+  div.not {
+    width: 226px;
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+    height: 52px;
+    border: 1px solid grey;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 168, ../sass/menu.scss */
+  .nav .nav_wrapper {
+    width: 100%;
+  }
+
+  /* line 169, ../sass/menu.scss */
+  .nav .mini-menu {
+    top: -30px;
+  }
+
+  /* line 170, ../sass/menu.scss */
+  .nav svg {
+    display: none;
+  }
+
+  /* line 171, ../sass/menu.scss */
+  .header-content, .header-top {
+    position: static;
+  }
+
+  /* line 172, ../sass/menu.scss */
+  .nav {
+    overflow-x: inherit;
+  }
+
+  /* line 173, ../sass/menu.scss */
+  #one_callback {
+    margin-left: -155px;
+    left: 50%;
+    height: 605px;
+    width: 310px;
+    background: url(../img/mob/form-2.png);
+    background-size: cover;
+  }
+
+  /* line 181, ../sass/menu.scss */
+  #one_callback span {
+    width: 30px;
+    height: 30px;
+    margin-left: 118px;
+    margin-top: -161px;
+  }
+}

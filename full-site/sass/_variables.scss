@@ -1,0 +1,71 @@
+@font-face {font-family: "RobotoCondensed-Regular"; src: url("../fonts/RobotoCondensed-Regular.ttf") format("opentype"); font-style: normal; font-weight: normal;}
+@font-face {font-family: "Roboto-Regular"; src: url("../fonts/Roboto-Regular.ttf") format("opentype"); font-style: normal; font-weight: normal;}
+@font-face {font-family: "Solomon Sans Black"; src: url("../fonts/Solomon Sans Black.otf") format("opentype"); font-style: normal; font-weight: 300;}
+@font-face {font-family: "Solomon Sans Book"; src: url("../fonts/Solomon Sans Book.otf") format("opentype"); font-style: normal; font-weight: 600;}
+@font-face {font-family: "Solomon Sans Book Italic"; src: url("../fonts/Solomon Sans Book Italic.otf") format("opentype"); font-style: normal; font-weight: 600;}
+@font-face {font-family: "Solomon Sans Bold"; src: url("../fonts/Solomon Sans Bold.otf") format("opentype"); font-style: normal; font-weight: 800;}
+@font-face {font-family: "Solomon Sans Light"; src: url("../fonts/Solomon Sans Light.otf") format("opentype"); font-style: normal; font-weight: 200;}
+@font-face {font-family: "Solomon Sans Normal"; src: url("../fonts/Solomon Sans Normal.otf") format("opentype"); font-style: normal; font-weight: 500;}
+@font-face {font-family: "Solomon Sans Thin"; src: url("../fonts/Solomon Sans Thin.otf") format("opentype"); font-style: normal; font-weight: 100;}
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,800&subset=cyrillic,cyrillic-ext');
+
+$roboto:            "RobotoCondensed-Regular";
+$roboto-reg:        "Roboto-Regular";
+$solomon:            "Solomon Sans Black";
+$solomon-book:       "Solomon Sans Book";
+$solomon-book-it:    "Solomon Sans Book Italic";
+$solomon-bold:       "Solomon Sans Bold";
+$solomon-light:      "Solomon Sans Light";
+$solomon-normal:     "Solomon Sans Normal";
+$solomon-thin:       "Solomon Sans Thin";
+$solomon-xbold:      "PFDinTextUniversal-XBlack";
+
+$red:           #e4202b;
+$red-hov:       #BF0006;
+
+@mixin gradient {
+  background: rgba(44,44,44,0);
+background: -moz-linear-gradient(left, rgba(44,44,44,0) 0%, rgba(0,0,0,0.45) 49%, rgba(0,0,0,0.8) 88%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(44,44,44,0)), color-stop(49%, rgba(0,0,0,0.45)), color-stop(88%, rgba(0,0,0,0.8)));
+background: -webkit-linear-gradient(left, rgba(44,44,44,0) 0%, rgba(0,0,0,0.45) 49%, rgba(0,0,0,0.8) 88%);
+background: -o-linear-gradient(left, rgba(44,44,44,0) 0%, rgba(0,0,0,0.45) 49%, rgba(0,0,0,0.8) 88%);
+background: -ms-linear-gradient(left, rgba(44,44,44,0) 0%, rgba(0,0,0,0.45) 49%, rgba(0,0,0,0.8) 88%);
+background: linear-gradient(to right, rgba(44,44,44,0) 0%, rgba(0,0,0,0.45) 49%, rgba(0,0,0,0.8) 88%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#000000', GradientType=1 );
+          }
+
+@mixin rotate($rotate) {
+    -ms-transform: rotate($rotate);
+    -webkit-transform: rotate($rotate);
+    transform: rotate($rotate);
+}
+@mixin box-styles {
+  position: absolute;
+  font: 16px $solomon-book;
+  padding: 20px 30px;
+  white-space: nowrap;
+}
+@mixin triangle_white {
+  content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-right: 1px solid #0e0e0e;
+    border-bottom: 1px solid #0e0e0e;
+    right: -8px;
+    top: 22px;
+    transform: rotate( -45deg );
+}
+@mixin triangle_red {
+  content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: $red;
+    border-right: 1px solid $red;
+    border-bottom: 1px solid $red;
+    right: -8px;
+    top: 22px;
+    transform: rotate( -45deg );
+}

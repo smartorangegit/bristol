@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Solomon Sans Black";
+  src: url("../fonts/Solomon Sans Black.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Solomon Sans Book";
+  src: url("../fonts/Solomon Sans Book.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Solomon Sans Book Italic";
+  src: url("../fonts/Solomon Sans Book Italic.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Solomon Sans Bold";
+  src: url("../fonts/Solomon Sans Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Solomon Sans Light";
+  src: url("../fonts/Solomon Sans Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Solomon Sans Normal";
+  src: url("../fonts/Solomon Sans Normal.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Solomon Sans Thin";
+  src: url("../fonts/Solomon Sans Thin.otf") format("opentype");
+  font-style: normal;
+  font-weight: 100;
+}
+/* line 2, ../sass/webcam.scss */
+html {
+  height: 100%;
+}
+
+/* line 5, ../sass/webcam.scss */
+body {
+  height: 100%;
+  background: url("../img/spirit.png");
+  background-size: cover;
+  position: relative;
+}
+
+/* line 11, ../sass/webcam.scss */
+.page_webcam.section_ten {
+  background: none;
+  height: auto;
+  padding-top: 180px;
+}
+/* line 15, ../sass/webcam.scss */
+.page_webcam.section_ten .ten_name {
+  font-size: 30px;
+  font-family: "Solomon Sans Book";
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+/* line 20, ../sass/webcam.scss */
+.page_webcam.section_ten .ten_name img {
+  margin-right: 8px;
+}
+
+/* line 25, ../sass/webcam.scss */
+.nine_finish {
+  margin: 50px auto;
+}
+
+/* line 28, ../sass/webcam.scss */
+.webcam_box {
+  width: 50vw;
+  max-width: 910px;
+  margin: 0 auto;
+  height: 40vh;
+  position: relative;
+  border: 1px solid #e6e6e6;
+}
+
+/* line 36, ../sass/webcam.scss */
+.webcam_box:after {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  background: url("../img/s.png") center;
+  background-repeat: no-repeat;
+  bottom: -30px;
+  left: 0;
+  opacity: 0.5;
+}
+
+/* line 47, ../sass/webcam.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 52, ../sass/webcam.scss */
+  body {
+    min-height: 600px;
+    height: 100%;
+  }
+
+  /* line 56, ../sass/webcam.scss */
+  .page_webcam.section_ten {
+    padding-top: 0px;
+  }
+
+  /* line 59, ../sass/webcam.scss */
+  .webcam_box {
+    width: 280px;
+    height: 175px;
+  }
+
+  /* line 63, ../sass/webcam.scss */
+  .webcam_box:after {
+    height: 18px;
+    width: 100%;
+    background-size: cover;
+    bottom: -14px;
+  }
+}

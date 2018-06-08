@@ -1,0 +1,158 @@
+.realtor-popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
+      }
+
+      .realtor-popup__close {
+        position: absolute;
+        top: 50px;
+        right: 4%;
+        cursor: pointer;
+      }
+
+      .realtor_one_callback {
+        position: absolute;
+        padding-top: 65px; 
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 101;
+        opacity: 1;
+        background: url(../img/form1.png);
+        background-position: center;
+        background-size: cover;
+        box-sizing: border-box;
+        width: 1023px;
+        height: 400px;
+      }
+
+      .realtor__heading {
+        font-family: "Solomon Sans Light";
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .realtor-form {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .realtor-form .intl-tel-input{
+        width: 45%;
+        height: 40px;
+        margin: 12px 4px;
+      }
+
+      .realtor__tel {
+        width: 100%;
+        height: 100%;
+      }
+
+      .realtor__input {
+        background: none;
+        border: 1px solid #0e0e0e;
+        width: 45%;
+        height: 40px;
+        font-family: "Solomon Sans Book";
+        font-size: 20px;
+        text-indent: 12px;
+        outline: none;
+        margin: 12px 4px;
+      }
+
+      .realtor__textarea {
+        width: 44%;
+        height: 90px;
+        font-family: "Solomon Sans Book";
+        font-size: 20px;
+        text-indent: 12px;
+      }
+
+      .realtor__submit {
+        float: right;
+        margin: 30px 0 0 0 !important;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .realtor_one_callback {
+          width: 767px;
+          height: 450px;
+          padding-top: 92px;
+        }
+
+        .realtor__submit {
+          width: 285px !important;
+          height: 50px !important;
+        }
+
+        .realtor-popup__close {
+          top: 60px;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .realtor_one_callback {
+          width: 90%;
+          background-image: none;
+          background-color: #D6D6D6;
+          height: auto;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+
+        .realtor-form {
+          width: 80%;
+          flex-wrap: wrap;
+        }
+
+        .realtor__input {
+          width: 100%;
+        }
+
+        .realtor__submit {
+          width: 100% !important;
+          margin: 0 !important;
+        }
+
+        .realtor-popup__close {
+          top: 15px;
+          right: 3%;
+        }
+
+        .realtor-form .intl-tel-input{
+          width: 100%;
+        }
+
+        .realtor__textarea {
+          width: 100%;
+          height: 150px;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+          .realtor_one_callback {
+            width: 98%;
+          }
+
+          .realtor__heading {
+            font-size: 1.2rem;
+          }
+
+          .realtor__input {
+            height: 30px;
+          }
+          
+          .realtor-form .intl-tel-input{
+            height: 30px;
+          }
+        }

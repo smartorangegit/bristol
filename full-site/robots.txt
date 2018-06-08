@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Host: bristol.house
+Sitemap: https://bristol.house/sitemap.xml 

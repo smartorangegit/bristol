@@ -1,0 +1,49 @@
+@import "variables";
+html, body {
+  height: 100%;
+}
+body {
+  background: url('../img/spirit.png');
+  background-size: cover;
+  position: relative;
+}
+.page_contact.section_ten {
+  height: calc(100% - 70px);
+  padding-top: 175px;
+  margin-top: 0;
+  background: none;
+  // position: relative;
+  .ten_name {
+    font-size: 26px;
+    font-family: $solomon-book;
+  }
+}
+.footer {
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+.ten_round {
+    margin: 45px 60px 20px;
+  }
+  img.fb {
+    margin-top: 40px;
+  }
+@media only screen and (min-width: 280px) and (max-width: 767px){
+
+  .page_contact.section_ten {
+    height: auto;
+    padding: 40px 0 40px 0;
+    margin-top: 0;
+  }
+  .ten_round {
+    margin: 20px 75px;
+}
+img.fb {
+  margin-top: 20px;
+}
+.footer {
+  position: static;
+}
+
+}

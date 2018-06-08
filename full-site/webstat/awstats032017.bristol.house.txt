@@ -1,0 +1,677 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201703 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.bristol.house.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2662                
+POS_VISITOR 17682               
+POS_DAY 20133               
+POS_DOMAIN 3537                
+POS_LOGIN 3773                
+POS_ROBOT 3928                
+POS_WORMS 4366                
+POS_EMAILSENDER 4497                
+POS_EMAILRECEIVER 4640                
+POS_SESSION 20590               
+POS_SIDER 20799               
+POS_FILETYPES 4775                
+POS_DOWNLOADS 5090                
+POS_OS 5138                
+POS_BROWSER 5284                
+POS_SCREENSIZE 5802                
+POS_UNKNOWNREFERER 5876                
+POS_UNKNOWNREFERERBROWSER 6264                
+POS_ORIGIN 6519                
+POS_SEREFERRALS 6661                
+POS_PAGEREFS 6816                
+POS_SEARCHWORDS 8808                
+POS_KEYWORDS 8960                
+POS_MISC 2326                
+POS_ERRORS 9019                
+POS_CLUSTER 3629                
+POS_SIDER_404 9189                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170316231054 753 175558 3759086374809
+FirstTime 0
+LastTime 20170316195204
+LastUpdate 20170317000102 753 0 753 0 0
+TotalVisits 152                 
+TotalUnique 58                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 58                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 64 9389307 10 14 247321
+1 75 387 26322698 35 46 384610
+2 257 1411 101823808 23 72 420241
+3 456 2993 104871912 36 132 1380265
+4 600 3146 335791076 83 1740 750564
+5 334 2042 149109399 51 104 1580946
+6 572 3265 106864231 29 107 484166
+7 399 2140 107726882 25 48 2077893
+8 474 2330 159176525 26 61 1473137
+9 247 1245 92448421 42 53 263587
+10 118 607 45435126 14 126 614205
+11 147 684 63125367 14 56 2945605
+12 44 179 10897644 23 26 595582
+13 37 222 17901704 85 92 609983
+14 8 63 9372497 25 29 813483
+15 23 89 1840989 62 122 343075
+16 3 13 133234 13 16 310719
+17 224 341 15023739 285 287 707648
+18 8 61 6541431 64 65 517765
+19 3 3 137372 12 12 417004
+20 0 0 0 13 14 349275
+21 2 2 2416 82 82 547445
+22 1 1 1215 20 20 281502
+23 1 1 1208 17 19 434575
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4043 21289 1363938201
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+no_user_agent 256 8477869 20170316231054 0
+facebook 45 613958 20170310102748 0
+python 35 657670 20170313184330 0
+googlebot 2 1546 20170303085600 0
+favicon 2 18716 20170316075931 0
+wget 2 43887 20170315040344 0
+yandex 2 1546 20170302235942 0
+libwww 1 44186 20170310042607 0
+scanner 1 53238 20170316052639 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 1919 33575533 0 0
+png 8736 152118250 0 0
+ico 2 5702 0 0
+ttf 666 53523888 0 0
+otf 1414 56752748 0 0
+php 937 7629843 0 0
+html 1026 6584912 0 0
+js 2794 37829374 0 0
+jpg 1614 978126504 0 0
+jpeg 197 13153874 0 0
+gif 38 38549 0 0
+svg 1946 24599024 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 1929
+winxp 70
+win2000 2
+winnt 1486
+winvista 3669
+linux 10897
+win7 629
+macosx 2365
+Unknown 242
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 28
+msie6.0 2
+chrome52.0.2743.116 9549
+safari9.0.1 555
+android 50
+chrome55.0.2883.91 225
+safari10.0 1266
+safari10.0.3 83
+chrome56.0.2924.87 7513
+safari5.1.4 65
+chrome28.0.1500.71 1
+firefox12.0 56
+safari8.0.6 3
+firefox31.0 1
+firefox47.0 4
+chrome46.0.2490.80 1
+chrome51.0.2704.103 12
+msie8.0 18
+safari9.0 59
+mozilla 1
+netscape5.0 208
+firefox3.6.28 2
+chrome55.0.2883.75 1160
+firefox51.0 157
+chrome27.0.1453 254
+chrome41.0.2228.0 2
+msie9.0 3
+chrome30.0.1599.101 1
+Unknown 38
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Bitrix_link_preview 20170315111339
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20170308020441
+Mixmax-LinkPreview_1.0_(_https://sdk.mixmax.com) 20170309060934
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20170316195204
+Mozilla/5.0_Jorgee 20170308171140
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Bitrix_link_preview 20170315111339
+Mixmax-LinkPreview_1.0_(_https://sdk.mixmax.com) 20170309060934
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20170316195204
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 905 1137
+From1 0 0
+From2 2 2
+From3 3136 20150
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 45
+http://138.201.178.152/css/style.css 1309 4285
+http://138.201.178.152 428 5740
+http://138.201.178.152/index.php 357 4506
+http://138.201.178.152/flats.html 298 952
+http://138.201.178.152/selection_flats.php 184 1095
+http://138.201.178.152/type.html 89 578
+http://138.201.178.152/build.html 64 779
+http://138.201.178.152/myadmin/index.php 60 73
+http://138.201.178.152/news.html 52 245
+http://138.201.178.152/webcam.html 41 271
+http://138.201.178.152/css/contact.css 0 2
+http://138.201.178.152/css/webcam.css 3 41
+http://138.201.178.152/css/build.css 0 5
+http://138.201.178.152/flats1.html 10 116
+http://138.201.178.152 4 89
+https://www.facebook.com 3 3
+http://138.201.178.152/ru/webcam.php 3 7
+http://138.201.178.152/flats.php 2 2
+http://138.201.183.97:81 1 1
+https://138.201.178.152:1500/ispmgr 1 1
+http://138.201.178.152/ru/build.php 6 23
+http://138.201.178.152/myadmin/db_structure.php 2 4
+http://138.201.178.152/test.php 0 7
+http://138.201.178.152/news_detailed.html 29 170
+http://138.201.178.152/ru/index.php 9 21
+http://138.201.178.152:81 1 1
+http://138.201.178.152/contact.html 35 130
+http://138.201.178.152/css/news.css 0 98
+http://138.201.178.152/ru/news.php 3 6
+https://138.201.178.152/myadmin/ 1 3
+http://138.201.178.152/myadmin/navigation.php 32 89
+http://138.201.178.152/css/jquery.fancybox.css 0 53
+http://138.201.178.152/ru/type.php 2 4
+http://138.201.183.97:80 1 1
+http://138.201.178.152/selection_flats.html 29 95
+http://138.201.178.152/myadmin/phpmyadmin.css.php 0 8
+http://138.201.178.152/webcam_svg.html 35 297
+http://138.201.178.152/ru/contact.php 6 10
+http://138.201.178.152/build.php 2 31
+http://138.201.178.152/ru/ 12 199
+http://138.201.178.152/ru/flats.php 2 5
+http://138.201.178.152/css/owl.theme1.css 0 74
+http://138.201.178.152/index1.php 1 3
+https://l.facebook.com 12 12
+http://138.201.178.152/myadmin/main.php 7 15
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 1650 337610
+302 223 270749
+206 83 7424606
+400 7 3570
+405 2 1110
+301 14 7779
+404 928 439156
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 205
+/ 2 -
+/ru/img/logo/logo_smart.png 32 http://138.201.178.152/ru/flats.php
+/ru/img/logo/kmb.png 2 http://138.201.178.152/ru/
+/mysql/admin/ 1 -
+/img/bg/bg 1 http://138.201.178.152/css/style.css
+/phpMyAdmin-4.2.1-english 6 -
+/ru/img/pin/xbr0.png 10 http://138.201.178.152/ru/index.php
+/mysql/dbadmin/ 1 -
+/check_proxy 2 -
+/phpMyAdmin-4.2.1-all-languages 6 -
+/script 8 -
+/ru/img/icons/web.png 2 http://138.201.178.152/ru/
+/cgi/common.cgi 2 -
+/stssys.htm 2 -
+http://www.baidu.com/cache/global/img/gs.gif 13 -
+/webcam_svg.html 1 -
+/xampp/phpmyadmin 2 -
+/img/bg/bg1 1 http://138.201.178.152/css/style.css
+//database/sql/scripts/setup.php 1 -
+/ru/img/logo/bristol.svg 20 http://138.201.178.152/ru/
+/xmlrpc.php 1 -
+/css/img/bg/b 1 http://138.201.178.152/css/style.css
+/CFIDE/administrator/ 1 -
+/css/img/b 1 http://138.201.178.152/css/style.css
+/css/grabbing.png 19 http://138.201.178.152/css/owl.carousel.css
+/ru/%D0%B5%D0%BD%D0%B7%D1%83.php 1 -
+/index.php/portfolio-grid-full-width/ 1 -
+/selection_flats..php 2 -
+/img/bg/b 1 http://138.201.178.152/css/style.css
+/ru/css/flats.css 1 http://138.201.178.152/ru/flats.php
+/ru/img/icons/auto1.png 2 http://138.201.178.152/ru/
+/msd1.24stable 8 -
+/phpMyadmin/ 1 -
+/ru/img/bg/bgflat.jpg 2 http://138.201.178.152/ru/flats.php
+/ru/img/news/pic-1.jpg 2 http://138.201.178.152/ru/news.php
+/fonts/RobotoCondensed-Regular.ttf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+/ru/img/pin/market.png 5 http://138.201.178.152/ru/index.php
+//wp-login.php 4 -
+/ru/img/news/pic-2.jpg 2 http://138.201.178.152/ru/news.php
+/ru/css/news.css 2 http://138.201.178.152/ru/flats.php
+/ru/img/icons/shpat.png 3 http://138.201.178.152/ru/
+/css/img/bg/bg 1 http://138.201.178.152/css/style.css
+/i 1 http://138.201.178.152/css/style.css
+/mysql 16 -
+/fonts/Solomon%20Sans%20Light.otf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+/ru/img/icons/big_letter.png 3 http://138.201.178.152/ru/
+/undefined 66 http://138.201.178.152/
+//web/phpmyadmin/scripts/setup.php 1 -
+/phpMyAdmin/scripts/setup.php 2 -
+/ru/img/news/pic-3.jpg 1 http://138.201.178.152/ru/news.php
+/login 6 -
+/ru/img/icons/bag.png 2 http://138.201.178.152/ru/
+/phpmyAdmin/ 1 -
+/css/..img/bg/bg1.jpg 1 http://138.201.178.152/css/style.css
+//pma/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 1 -
+/phpmy/ 1 -
+/SQlite/main.php 8 -
+/index.%D0%B7%D1%80%D0%B7 1 -
+/cgi-bin/php 4 -
+/mysql/scripts/setup.php 1 -
+/ru/img/icons/porc.png 2 http://138.201.178.152/ru/
+/SQLiteManager/main.php 8 -
+/phppma/ 1 -
+/Blog/wp-login.php 4 -
+/ru/js/map.js 4 http://138.201.178.152/ru/
+/index.html 25 http://138.201.178.152/contact.html
+/ru/css/webcam.css 1 http://138.201.178.152/ru/webcam.php
+//admin/config.php 1 -
+/EBD2FD2A.jpg 2 http://138.201.178.152/flats.html
+/ru/img/icons/big_tel.png 3 http://138.201.178.152/ru/
+/SQLite/SQLiteManager-1.2.4/main.php 8 -
+//admin/pma/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 1 -
+/tmUnblock.cgi 1 -
+/ru/css/style.css 3 http://138.201.178.152/ru/flats.php
+/ru/img/icons/big_pin.png 3 http://138.201.178.152/ru/
+/mySqlDumper 8 -
+/sqlitemanager/main.php 8 -
+/phpmyadmin3/ 1 -
+/phpMyAdmin 8 -
+//dbadmin/scripts/setup.php 1 -
+/mainAction.action 2 -
+/ru/img/logo/logo_riv_b.svg 2 http://138.201.178.152/ru/
+/phpmyadmin4/ 1 -
+/img/Header_donthover.svg 1 http://138.201.178.152/css/style.css
+/ru/img/icons/close_pop.svg 7 http://138.201.178.152/ru/
+/css/img/bg/bg1. 1 http://138.201.178.152/css/style.css
+/ru/img/icons/metro1.png 3 http://138.201.178.152/ru/
+/index.php/portfolio-posts/nous-wine-pack/ 1 -
+/img/b 2 http://138.201.178.152/css/style.css
+/css/img/bg/bg1 1 http://138.201.178.152/css/style.css
+/css/img/bg/ 1 http://138.201.178.152/css/style.css
+//admin/mysql/scripts/setup.php 1 -
+/ru/js/lib/wow.min.js 12 http://138.201.178.152/ru/flats.php
+/fonts/Solomon%20Sans%20Book.otf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+/phpmyadmin 10 -
+/img/bg/bg1.jp 1 http://138.201.178.152/css/style.css
+/jenkins/script 6 -
+/ru/img/logo/logoKDD.svg 2 http://138.201.178.152/ru/
+/msd1.24.4 8 -
+/ru/js/lib/scrollmagic/ScrollMagic.min.js 5 http://138.201.178.152/ru/flats.php
+/sitemap.xml 2 -
+/ru/img/icons/paint.png 2 http://138.201.178.152/ru/
+/robots.txt 9 -
+/jmx-console 8 -
+//scripts/setup.php 1 -
+/fonts/Solomon%20Sans%20Normal.otf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+/sitemap.txt 1 -
+/test-for-404-page 1 -
+/css/img/bg/bg1.jpg 1 http://138.201.178.152/css/style.css
+/wordpress/wp-login.php 4 -
+/MySQLDumper 8 -
+/webadmin 2 -
+/target.png 164 http://138.201.178.152/
+//phpadmin/scripts/setup.php 1 -
+/cms/administrator 4 -
+/img/bg/bg1. 1 http://138.201.178.152/css/style.css
+/scripts/setup.php 1 -
+/2phpmyadmin/ 1 -
+/joomla/administrator 4 -
+/ru/img/icons/menu.svg 14 http://138.201.178.152/ru/
+/phpmyadmin/ 1 -
+/mysql/mysqlmanager/ 1 -
+/sql 16 -
+/css/img 1 http://138.201.178.152/css/style.css
+//administrator 4 -
+/ru/selection_flats.php 1 http://138.201.178.152/ru/flats.php
+/css/i 1 http://138.201.178.152/css/style.css
+/webdav 4 -
+/phpmyadmin2/ 1 -
+//admin/scripts/setup.php 1 -
+/apple-touch-icon-120x120.png 1 -
+/ru/css/animate.css 3 http://138.201.178.152/ru/flats.php
+/ru/img/icons/up.png 3 http://138.201.178.152/ru/
+/fonts/Solomon%20Sans%20Thin.otf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+//admin/sql/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 2 -
+/ru/infobubble.js 7 http://138.201.178.152/ru/
+/ru/img/pin/metro.png 5 http://138.201.178.152/ru/index.php
+/blog/wp-login.php 4 -
+//phpMyAdmin2/scripts/setup.php 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/img/bg/bg1.j 1 http://138.201.178.152/css/style.css
+/phpTest/zologize/axa.php 1 -
+/ru/js/lib/greensock/TweenMax.min.js 3 http://138.201.178.152/ru/flats.php
+/msd 8 -
+/typo3/phpmyadmin 2 -
+/ru/img/icons/pin.png 2 http://138.201.178.152/ru/
+/ru/img/icons/auto.png 2 http://138.201.178.152/ru/
+/css/im 1 http://138.201.178.152/css/style.css
+/ru/img/icons/metro.png 2 http://138.201.178.152/ru/
+/ru/css/menu.css 3 http://138.201.178.152/ru/flats.php
+/ru/img/pin/school.png 5 http://138.201.178.152/ru/index.php
+/mysqladmin/scripts/setup.php 1 -
+/selection_flats.html 3 http://138.201.178.152/flats.html
+/apple-touch-icon.png 2 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+/ru/js/script.js 9 http://138.201.178.152/ru/flats.php
+/ru/img/icons/market.png 2 http://138.201.178.152/ru/
+/css/img/bg/bg1.j 1 http://138.201.178.152/css/style.css
+/hndUnblock.cgi 1 -
+/css/img/ 1 http://138.201.178.152/css/style.css
+/fonts/Solomon%20Sans%20Book%20Italic.otf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+/cgi-bin/php5 4 -
+/im 1 http://138.201.178.152/css/style.css
+/MyAdmin/scripts/setup.php 1 -
+/fonts/Solomon%20Sans%20Bold.otf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+/ru/contact.html 1 http://138.201.178.152/ru/build.php
+/SQLiteManager-1.2.4/main.php 8 -
+//php/scripts/setup.php 1 -
+/phpmyadmin/scripts/setup.php 17 -
+/redirect.php 1 -
+/muieblackcat 1 -
+/css/img/bg 1 http://138.201.178.152/css/style.css
+//blog/phpmyadmin/scripts/setup.php 1 -
+/fonts/Solomon%20Sans%20Black.otf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+/fonts/Roboto-Regular.ttf%22)%20format(%22opentype 1 http://138.201.178.152/index.php
+//db/scripts/setup.php 1 -
+/css/.img/bg/bg1.jpg 1 http://138.201.178.152/css/style.css
+/ru/js/lib/scrollmagic/plugins/animation.gsap.js 5 http://138.201.178.152/ru/flats.php
+//php/phpmyadmin/scripts/setup.php 2 -
+/wp/wp-login.php 4 -
+/mysql/sqlmanager/ 1 -
+/ru/img/icons/baby.png 2 http://138.201.178.152/ru/
+/Wordpress/wp-login.php 4 -
+/pmd 3 http://138.201.178.152:80/pmd
+/mysqldumper 8 -
+/ru/img/icons/close.svg 14 http://138.201.178.152/ru/
+/command.php 2 -
+/status 4 -
+/flats 1 -
+/Joomla/administrator 4 -
+/ru/img/pin/clinic.png 5 http://138.201.178.152/ru/index.php
+/ru/img/icons/web_black.png 2 http://138.201.178.152/ru/webcam.php
+//admin/phpmyadmin/scripts/setup.php 1 -
+/sitemap_index.xml 1 -
+/pma/scripts/setup.php 2 -
+/img/bd 1 http://138.201.178.152/css/style.css
+/manager/html 5 -
+/wp-admin/edit.php 5 http://yandex.ru/clck/jsredir
+//mysql/scripts/setup.php 1 -
+/sqlite/main.php 8 -
+/phpMyAdmin/ 1 -
+/css/img/bg/bg1.jp 1 http://138.201.178.152/css/style.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 58
+178.214.207.58 1923 11065 543705099 20170316114438
+185.11.28.210 691 3582 249783789 20170310055909
+194.213.104.137 422 1990 200229814 20170316082926
+213.159.245.113 209 1096 108519243 20170315090838
+111.68.97.43 203 203 1615064 20170308171140
+185.11.28.211 99 510 37378041 20170311115605
+46.164.130.143 88 645 31374252 20170315092004
+109.86.239.178 67 241 7426856 20170309041433
+195.12.152.88 60 371 37237821 20170310103435
+109.122.32.136 45 313 41149769 20170314105700
+66.249.93.9 15 89 5055827 20170310064417
+46.235.53.179 1 1 42505 20170314091846
+52.204.178.57 1 3 10939 20170309060934
+104.45.18.178 2 2 52318 20170309093621
+37.73.150.11 1 6 10791 20170310013135
+88.212.37.84 26 147 11510636 20170307161537
+66.249.93.13 5 79 5765424 20170310064417
+37.187.115.15 1 1 26754 20170308012936
+46.235.53.138 13 13 499058 20170315111339
+49.4.142.180 1 1 1209 20170302131226
+60.191.38.77 4 4 138586 20170316031305
+37.73.235.133 8 61 2452693 20170307035823
+95.67.83.33 12 84 3503796 20170309170100
+89.42.237.49 1 1 1209 20170303095403
+128.69.146.234 1 13 355057 20170311153645
+37.73.193.233 9 66 2899261 20170309063235
+23.247.72.83 1 1 1208 20170305230544
+95.24.120.24 1 56 8739730 20170313041427
+208.100.26.231 1 1 190 20170308020441
+52.204.144.177 1 3 10939 20170309060933
+52.174.52.33 1 1 1208 20170303130722
+93.73.60.63 28 209 28470831 20170316125732
+5.1.10.76 5 27 738759 20170313083316
+103.40.102.19 2 2 2425 20170302094133
+23.247.88.18 1 1 26758 20170308113531
+83.142.111.239 17 79 9123305 20170316045700
+94.102.48.195 1 1 1208 20170304214142
+117.179.157.25 1 1 42757 20170314194934
+195.138.217.93 8 61 9331209 20170309093634
+71.6.167.142 1 1 53238 20170315161529
+37.73.246.216 1 4 10653 20170310071607
+37.59.253.230 1 1 53238 20170315084502
+37.73.236.68 12 87 592799 20170311073857
+23.247.72.26 1 1 1208 20170306013336
+180.97.215.2 1 1 42075 20170312194940
+66.249.93.11 12 86 13029637 20170310064417
+23.247.88.66 1 1 26757 20170307003713
+46.211.70.181 4 23 1051742 20170309064702
+104.148.21.80 1 1 42505 20170314092329
+89.248.174.106 1 1 1209 20170302105226
+89.248.172.16 1 1 1215 20170303222732
+23.101.61.176 3 3 79076 20170309093620
+37.73.220.141 10 30 1175022 20170306114921
+31.210.102.114 1 1 52540 20170316195204
+195.208.187.60 13 14 444850 20170310101420
+195.154.119.47 1 1 26758 20170308150119
+47.203.88.36 1 1 10835 20170315023049
+47.203.95.180 1 1 6506 20170308022936
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20170302 4 4 4843 3
+20170303 3 3 3632 3
+20170304 2 2 2416 2
+20170305 1 1 1208 1
+20170306 607 3176 243000934 13
+20170307 577 2465 136790442 20
+20170308 210 232 1715052 7
+20170309 1071 6847 281323845 28
+20170310 341 1889 152553749 21
+20170311 27 200 4267831 4
+20170312 1 1 42075 1
+20170313 158 1141 111223816 5
+20170314 614 3243 237682330 17
+20170315 289 1450 134985855 17
+20170316 138 635 60340173 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 25
+5mn-15mn 6
+2mn-5mn 10
+30s-2mn 5
+15mn-30mn 5
+0s-30s 89
+30mn-1h 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 55
+/fonts/Solomon%20Sans%20Book.otf 334 12874113 1 5
+/fonts/Roboto-Regular.ttf 333 27225330 0 0
+/fonts/RobotoCondensed-Regular.ttf 333 26298558 0 5
+/index.php 325 3185786 28 23
+/fonts/Solomon%20Sans%20Light.otf 317 12115446 1 2
+/ 292 3213470 61 36
+/fonts/Solomon%20Sans%20Normal.otf 269 11127847 0 10
+/fonts/Solomon%20Sans%20Book%20Italic.otf 253 10801483 0 10
+/fonts/Solomon%20Sans%20Thin.otf 241 9833859 0 2
+/flats.html 227 921233 12 12
+/flats.php 2 22066 0 0
+/selection_flats.html 39 80177 1 2
+/webcam.html 30 81519 0 2
+/myadmin/import.php 8 40796 0 0
+/index1.php 7 91250 0 0
+/ru/type.php 1 7584 0 0
+/myadmin/navigation.php 35 97073 0 1
+/myadmin/db_sql.php 1 4048 0 0
+/webcam_svg.html 71 412003 18 9
+/build.php 4 28332 0 0
+/img/ 2 2172 0 0
+/myadmin/index.php 223 1658665 1 1
+/type.php 1 7526 0 0
+/myadmin/db_search.php 1 4432 0 0
+/ru/webcam.php 3 14529 0 0
+/ru/build.php 10 55620 0 0
+/ru/flats.php 6 61331 0 1
+/selection_flats.php 188 1552920 7 9
+/myadmin/sql.php 1 10206 0 0
+/myadmin/phpmyadmin.css.php 21 137456 0 1
+/myadmin/db_structure.php 18 75937 0 0
+/myadmin/prefs_manage.php 1 4811 0 0
+/flats1.html 32 208919 5 5
+/myadmin/js/messages.php 13 87991 0 0
+/myadmin/db_qbe.php 1 5019 0 0
+/myadmin/server_export.php 1 9128 0 0
+/test.php 11 22104 2 1
+/myadmin/server_databases.php 1 4196 0 0
+/myadmin/server_import.php 1 6307 0 0
+/myadmin/chk_rel.php 1 3945 0 0
+/img/bg/ 2 1534 0 0
+/myadmin/main.php 19 172645 0 0
+/ru/contact.php 7 47710 0 0
+/build.html 63 349920 5 4
+/ru/ 36 473544 3 4
+/type.html 111 429279 4 4
+/news_detailed.html 27 112978 1 2
+/contact.html 37 112215 0 0
+/myadmin/db_import.php 8 44174 0 0
+/myadmin/ 3 11964 1 0
+/css/ 1 915 0 0
+/news.html 53 173070 1 1
+/ru/index.php 8 98030 0 0
+/ru/news.php 6 38473 0 0
+/myadmin/db_operations.php 4 29753 0 0
+END_SIDER

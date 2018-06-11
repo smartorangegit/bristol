@@ -6,6 +6,8 @@
  
 full-site/video
 full-site/img
-
-
-
+full-site/admin
+full-site/application.php
+full-site/db.php
+full-site/include/config.php
+full-site/ru/application.php

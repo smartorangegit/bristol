@@ -150,10 +150,11 @@ div.box.sample:after
 </style> -->
 <style media="screen">
   .box.sample{
-    width: 380px;
-    height: 380px;
+    width: 260px;
+    height: 260px;
     position: absolute;
-    left: 230px;
+    top: -130px;
+    left: 260px;
     transform: rotate(-26deg);
     -webkit-transform: rotate(-26deg);
   }

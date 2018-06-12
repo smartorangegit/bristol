@@ -32,7 +32,7 @@
 		</div>
 -->
 
-    <?php include 'include/main_menu.php';?>
+  <?php include 'include/main_menu.php';?>
     <div class="main_page section_one">
       <div class="wrapper">
         <div class="one_text">
@@ -52,7 +52,8 @@
 
 
                 <div class="box sample">
-                  <img src="/img/sold_ua.png" alt="Всі квартири продані">
+                  ВСІ<br> КВАРТИРИ <br>ПРОДАНІ
+                  <!-- <img src="/img/sold_ua.png" alt="Всі квартири продані"> -->
                 </div>
 
 
@@ -64,104 +65,46 @@
                 </div>
               </div>
           </div>
-<!-- <style>
-.sold_out{
-	text-align: center;
-}
-@media (min-width:801px){
-.sold_out{
-	transform: rotate(-29deg) translateX(-49px)translateY(-82px);
 
-}
-}
-@media (max-width:801px){
-	.one_text .one_text_box {
-		margin-top: 0;
-	}
-}
-
-div.box
-{
- width:128%;
- /* border:solid 1px #cecece; */
- display:inline-block;
- vertical-align:top;
- box-sizing:border-box;
- padding:10px;
- color:#999;
- position:relative;
-margin-top:10px;
-margin-bottom:10px;
-}
-
-div.box.sample:after
-{
- content:"Всі квартири продано";
- position:absolute;
- top:80px;
- /* left:100px; */
- z-index:1;
- font-family:Arial,sans-serif;
- -webkit-transform: rotate(-43deg) translateX(-40px)translateY(-154px); /* Safari */
- -moz-transform: rotate(-43deg) translateX(-40px)translateY(-154px)); /* Firefox */
- -ms-transform: rotate(-43deg) translateX(-40px)translateY(-154px); /* IE */
- -o-transform: rotate(-43deg) translateX(-40px)translateY(-154px); /* Opera */
- transform: rotate(-43deg) translateX(-40px)translateY(-154px);
- font-size:40px;
- color:#c00;
- background:#fff;
- border:solid 4px #c00;
- padding:5px;
- border-radius:5px;
- zoom:1;
- filter:alpha(opacity=20);
- opacity:0.2;
- -webkit-text-shadow: 0 0 2px #c00;
- text-shadow: 0 0 2px #c00;
- box-shadow: 0 0 2px #c00;
-}
-@media screen and (max-width: 1200px) {
-   div.box.sample:after {
-	 transform: rotate(-43deg) translateX(-117px)translateY(-154px);
-   }
-}
-@media screen and (max-width: 765px){
-	div.box {
-		width: 100%;
-	}
-    div.box.sample:after {
-		transform: rotate(0deg) translateX(65px)translateY(-62px);
-		font-size: 25px;
-		top: 60px;
-	}
-}
-
-#blinking{
-    padding:20px;
-    animation:blinking 3s infinite;
-}
-@keyframes blinking{
-    0%{background-color:rgba(227, 34, 44, 1);color:rgba(255, 255, 255, 1);}
-    50%{background-color:rgba(255, 255, 255, 1);color:rgba(257, 34, 44, 1);}
-    100%{background-color:rgba(227, 34, 44, 1);color:rgba(255, 255, 255, 1);}
-}
-
-
-</style> -->
 <style media="screen">
   .box.sample{
     width: 260px;
     height: 260px;
     position: absolute;
-    top: -130px;
+    top: -120px;
     left: 260px;
     transform: rotate(-26deg);
     -webkit-transform: rotate(-26deg);
+    border-radius: 100%;
+    border: rotate(-26deg);
+    border: 20px solid red;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 38px;
+    color: red;
+    padding-top: 9px;
+    font-weight: bold;
+    box-sizing: border-box;
   }
-  .box.sample img{
+  /* .box.sample img{
     width: 100%;
     height: auto;
+  } */
+  @media only screen and (max-width: 1220px) {
+    .box.sample{
+      top: -70px;
+      left: 160px;
+    }
   }
+  @media only screen and (max-width: 768px) {
+    .box.sample {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 60px;
+    font-size: 28px;
+  }
+}
 </style>
 
           <div class="one_text_right wow bounceInLeft">

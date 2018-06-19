@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <meta property="og:image" content="https://bristol.house/img/bristol.png" />
     <link rel="stylesheet" href="css/menu.css">
     <meta name="description" content="ЖК BRISTOL Comfort House житловий комплекс в Києві Відділ сервісу: ☎ (044) 22 77 144, Адреса м.Київ, пр-т В. Лобановського,146Б">
   	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'];?>"/>

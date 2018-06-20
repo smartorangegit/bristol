@@ -1,10 +1,11 @@
+<?php include_once('../../include/utm.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/cimvol.png" type="image/png" />
-    <title>ЖК BRISTOL Comfort House - ход строительства дома</title>
+    <title>≡ ЖК Бристоль 》 Ход строительства жилого комплекса BRISTOL Comfort House</title>
     <link rel="stylesheet" href="/css/intlTelInput.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/build.css">
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="/css/jquery.fancybox.css">
     <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 	<link rel="stylesheet" href="/css/news.css">
-	<meta name="description" content="ЖК BRISTOL Comfort House ход строительства дома Отдел продаж: ☎ (044) 22 77 144, Адрес г.Киев, пр-т В. Лобановского,146Б">
+	<meta name="description" content='【Ход строительства】 BRISTOL Comfort House - максимум преимуществ за разумную цену ... ✅【BRISTOL】5 минут пешком до: станции метро "Демиевская", школы, детского садика ....  ✅【BRISTOL】7 типов квартир, 25 этажей, подземный паркинг, закрытая придомовая терр... ✅【BRISTOL】пр-т В. Лобановского, 146-б'>
 	<link rel="canonical" href="<?php echo 'https://'.$_SERVER['SERVER_NAME'], $_SERVER['REQUEST_URI'];?>"/>
 	<link rel="alternate" hreflang="ru" href="https://bristol.house/ru/build/" />
     <link rel="alternate" hreflang="uk" href="https://bristol.house/build/" />
@@ -29,7 +30,7 @@
     <div class="page_build section_ten">
       <div class="ten_name bounceInLeft"><h1>Ход строительства</h1></div>
         <div class="news_wrapper other" style="text-align: justify; width:100%;max-width:1000px;padding:0 10px;">
-		<p>Окончание строительства комплекса запланировано на I квартал 2018 года.</p>
+		<p>Ввод в эксплуатацию строительства комплекса запланировано на II - III квартал 2018 года.</p>
         <p>Разрешительную документацию можно посмотреть по ссылке
           <a href="https://bristol.house/ru/dozvilna-dokumenaciya/" target="_blank">bristol.house/ru/dozvilna-dokumenaciya/</a></p>
         <p>Ход строительства ЖК BRISTOL Comfort House вы всегда можете увидеть в режиме реального времени.
@@ -88,7 +89,8 @@
         <div class="wrapper clearfix">
           <div class="line_message">
             <h4>Завершены работы по устройству стяжек на 2,4-16 этажах, выполняются стяжки в подвале. Продолжается утепления фасадов - 73% закрыто минватою. Продолжаются работы по внутренним инженерным сетям ВК и ОВ. Продолжаются работы по перекладке наружных сетей В1 вдоль пр. Лобановского. Начался монтаж оборудования лифтов. Продолжаются работы по электропроводке и системе молниезащиты. Установлены ограждения лоджий на 6 этажах.
-</h4>            <br><p>Мы регулярно сообщаем про этапы выполнения работ, публикуя фото-отчеты.</p>
+</h4>
+            <br><p>Мы регулярно сообщаем про этапы выполнения работ, публикуя фото-отчеты.</p>
           </div>
           <a class="button but_bud" href="/ru/build/">Ход строительства</a>
           <a class="button but_web" href="/ru/webcam/"><img src="/img/icons/web.png" alt="web">Веб-камерa</a>
@@ -108,9 +110,10 @@
             <div class="tooltip tooltip-effect-2"><div class="tooltip-item"><div id="rad2" class="radial"></div></div><div class="tooltip-content clearfix"><div class="tooltip-text" id="rad3_tooltip-text"></div></div></div>
             <div class="tooltip tooltip-effect-2"><div id="rad4" class="radial"></div></div>
 
+
           </div>
 
-        <div class="nine_finish">Завершение строительства &minus; первый квартал 2018 года. </div>
+        <div class="nine_finish">Завершение строительства &minus; второй квартал 2018 года. </div>
         </div>
 
       </div>
@@ -119,7 +122,7 @@
       <div class="build_box clearfix">
 
           <?
-          $sel = $DB->query("SELECT * FROM `hod_stroy` ORDER BY `date` DESC ");
+          $sel = $DB->query("SELECT * FROM `hod_stroy` WHERE `isActive`=0 ORDER BY `date` DESC ");
           while ($myrow = mysqli_fetch_array($sel)) {
               $pieces = explode("*/*", $myrow['ar_imgs']);
               $pieces[1];
@@ -176,14 +179,14 @@
       </div>
 
 
+
   </div>
   
 <?php include '../../include/futer_ru.php';?>
 
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-<script defer src="/js/jquery.fancybox.pack.js"></script>
-<script defer src="/js/jquery.fancybox-thumbs.js"></script>
-<script defer type="text/javascript" src="/js/CircularLoader-v1.3.js"></script>
+<script src="/js/jquery.fancybox.pack.js"></script>
+<script src="/js/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript" src="/js/CircularLoader-v1.3.js"></script>
     <style media="screen">
       .build_work {
         font-size: 16px;
@@ -191,9 +194,7 @@
       .build_name {
         width: 140px;
       }
-      .build_date {
-        width: auto;
-    }
+
 	    .webcamera {
       z-index: 9999;}
     .webcam_box {
@@ -208,6 +209,8 @@
       }
 
     }
+	.section_nine.section_nine_wrapper{margin-bottom:70px;} 
+	.nine_line .line_message {text-align: left;}
     </style>
     <!--<script src="/js/progress.js"></script>-->
     <?$perstSelect = $DB->query("SELECT * FROM `pers`");
@@ -250,7 +253,8 @@
                             var constructionText, facadeText, engineeringText, totalConstructionMainText, networksMaintext, beautificationMainText, facadeMainText;
     
                             if(location[3] == 'ru') {
-                                constructionText = 'Работы до отм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Кирпичная кладка - ' + brickworkConstrution + '%&#013;</br>Внутренняя отделка - ' + interiorFinshConstrution + '%&#013;';
+                                constructionText = 'Работы до отм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Кирпичная кладка - ' + brickworkConstrution + '%&#013;';
+                                //constructionText = 'Работы до отм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Кирпичная кладка - ' + brickworkConstrution + '%&#013;</br>Внутренняя отделка - ' + interiorFinshConstrution + '%&#013;';
                                 facadeText = 'Окна - ' + windowsFacade + '%&#013; <br>Фасад - ' + facadeFacade +'%&#013;';
                                 engineeringText = 'Внутренние - ' + internalEngineering + '%&#013; <br>Внешние - ' + externalEngineering + '%&#013;';
                                 totalConstructionMainText = 'Общестроительные <br>работы';
@@ -258,11 +262,13 @@
                                 networksMaintext = 'Сети';
                                 beautificationMainText = 'Благоустройство';
                             } else if(location[3] == 'en'){
-                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
+                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;';
+                                //constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
                                 facadeText = 'Вікна - ' + windowsFacade + '%&#013; <br>Фасад - ' + facadeFacade +'%&#013;';
                                 engineeringText = 'Внутрішні - ' + internalEngineering + '%&#013; <br>Зовнішні - ' + externalEngineering + '%&#013;';
                             } else {
-                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
+                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;';
+                                //constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
                                 facadeText = 'Вікна - ' + windowsFacade + '%&#013; <br>Фасад - ' + facadeFacade +'%&#013;';
                                 engineeringText = 'Внутрішні - ' + internalEngineering + '%&#013; <br>Зовнішні - ' + externalEngineering + '%&#013;';
                                 totalConstructionMainText = 'Загально будівельні <br>роботи';

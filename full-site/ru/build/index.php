@@ -113,7 +113,7 @@
 
           </div>
 
-        <div class="nine_finish">Завершение строительства: II - III квартал 2018 года. </div>
+        <div class="nine_finish">Ввод в эксплуатацию: III квартал 2018 года. </div>
         </div>
 
       </div>

@@ -116,7 +116,7 @@
 
                 </div>
                 <div>
-                    <div class="nine_finish">Введення в експлуатацію: II - III квартал 2018 року. </div>
+                    <div class="nine_finish">Введення в експлуатацію: III квартал 2018 року. </div>
                 </div>
             </div>
 

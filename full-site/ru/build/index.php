@@ -268,8 +268,8 @@
                             var constructionText, facadeText, engineeringText, totalConstructionMainText, networksMaintext, beautificationMainText, facadeMainText;
     
                             if(location[3] == 'ru') {
-                                constructionText = 'Работы до отм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Кирпичная кладка - ' + brickworkConstrution + '%&#013;';
-                                //constructionText = 'Работы до отм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Кирпичная кладка - ' + brickworkConstrution + '%&#013;</br>Внутренняя отделка - ' + interiorFinshConstrution + '%&#013;';
+                                //constructionText = 'Работы до отм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Кирпичная кладка - ' + brickworkConstrution + '%&#013;';
+                                constructionText = 'Работы до отм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Кирпичная кладка - ' + brickworkConstrution + '%&#013;</br>Внутренняя отделка - ' + interiorFinshConstrution + '%&#013;';
                                 facadeText = 'Окна - ' + windowsFacade + '%&#013; <br>Фасад - ' + facadeFacade +'%&#013;';
                                 engineeringText = 'Внутренние - ' + internalEngineering + '%&#013; <br>Внешние - ' + externalEngineering + '%&#013;';
                                 totalConstructionMainText = 'Общестроительные <br>работы';
@@ -277,13 +277,13 @@
                                 networksMaintext = 'Сети';
                                 beautificationMainText = 'Благоустройство';
                             } else if(location[3] == 'en'){
-                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;';
-                                //constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
+                                //constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;';
+                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
                                 facadeText = 'Вікна - ' + windowsFacade + '%&#013; <br>Фасад - ' + facadeFacade +'%&#013;';
                                 engineeringText = 'Внутрішні - ' + internalEngineering + '%&#013; <br>Зовнішні - ' + externalEngineering + '%&#013;';
                             } else {
-                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;';
-                                //constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
+                                //constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;';
+                                constructionText = 'Роботи до відм. 0,000 - '+ constructionTillPoint + '%&#013;<br>Каркас -' + carcassConstrution + '%&#013;<br>Цегляна кладка - ' + brickworkConstrution + '%&#013;</br>Внутрішнє опорядження - ' + interiorFinshConstrution + '%&#013;';
                                 facadeText = 'Вікна - ' + windowsFacade + '%&#013; <br>Фасад - ' + facadeFacade +'%&#013;';
                                 engineeringText = 'Внутрішні - ' + internalEngineering + '%&#013; <br>Зовнішні - ' + externalEngineering + '%&#013;';
                                 totalConstructionMainText = 'Загально будівельні <br>роботи';
